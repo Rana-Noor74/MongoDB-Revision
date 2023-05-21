@@ -1,3 +1,4 @@
+const db = require("../db/connection");
 module.exports={
     //get institute info
     instituteInfo : (req, res)=>{
@@ -5,6 +6,6 @@ module.exports={
             "name" : "M.A.M Education System",
             "since" : 1978,
             "owner" : "Ijaz Ahmad"
-        })
-    }
+        });
+    },
 }

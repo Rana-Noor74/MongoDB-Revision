@@ -12,6 +12,7 @@ app.use("/", institute);
 app.use("/students/", students);
 app.use("/teachers/", teacher);
 //listening server
+
 const start = async ()=>{
     try{
         //connecting db
